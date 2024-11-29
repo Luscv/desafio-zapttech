@@ -1,8 +1,34 @@
-# React + Vite
+# Desafio Desenvolvedor de Software 2 - Zapt Tech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido para processo de seleção da ZaptTech
 
-Currently, two official plugins are available:
+## Instruções para rodar o projeto localmente
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+    git clone https://github.com/Luscv/desafio-zapttech.git
+
+    npm install
+
+    npm run dev
+```
+
+## Funcionalidades
+> Algumas informações extras sobre os casos de uso
+
+- Fetching com requisições armazenadas para evitar chamadas constantes a API.
+- Lojas próximas podendo ser acessadas ao clicar em seus cards ao visualizar uma loja. 
+- Estruturação do código com custom hooks para lidar com regras de negócio separadamente dos componentes. (além de utils, services e routes para manter uma melhor organização de código)
+
+## Pacotes utilizados
+
+- Tailwind
+- React Router
+- Prop Types
+- Axios
+- Tanstack Query
+
+## Gostou do meu trabalho? Entre em contato!
+
+lucbarrospc@gmail.com
+
+[LinkedIn](https://www.linkedin.com/in/luscv/)
