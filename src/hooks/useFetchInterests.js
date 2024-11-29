@@ -2,9 +2,7 @@ import { api } from "../services/api";
 import { useQuery } from "@tanstack/react-query";
 import { minutesToMilliseconds } from "../utils/millisecondsToMinutes";
 
-
 export function useFetchInterests() {
-
     const fetchInterests = async () => {     
         const { data } = await api.get()
         return data
@@ -20,7 +18,6 @@ export function useFetchInterests() {
         queryFn: fetchInterests,
         staleTime: minutesToMilliseconds(60)
     })
-
 
     return{
         interests,

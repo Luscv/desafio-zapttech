@@ -4,9 +4,7 @@ import { useFetchInterests } from "../hooks/useFetchInterests";
 
 
 export const Home = () => {
-
     const { interests, loading, error } = useFetchInterests()
-
     const interestArray = Object.values(interests)
 
     if(loading) return <p className="h-screen text-center flex flex-col justify-center text-4xl font-bold text-blue">Carregando Lojas...</p>;
@@ -20,8 +18,7 @@ export const Home = () => {
                         <StoreMinimized store={interest}/>
                     </Link>        
                 ))}
-            </div>
-            
+            </div>  
         </div>
     )
 }

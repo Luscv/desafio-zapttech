@@ -17,6 +17,5 @@ export const useGetNeighbor = (id) => {
         
     }, [id, interests])
     
-    console.log(nearby)
     return{nearby}
 }

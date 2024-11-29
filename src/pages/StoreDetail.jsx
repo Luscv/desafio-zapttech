@@ -32,15 +32,12 @@ export const StoreDetail = () => {
                     </Link>
                   ))
                 }
-              </div>
-              
+              </div>  
           </div>
-          <span className="mt-6 text-center w-full text-xl font-semibold">
-              
+          <span className="mt-12 text-center w-full text-2xl font-semibold">
               <nav>
-                  <Link to="/map">Ver no Mapa</Link>
+                  <Link to={`/map/${store.id}`} className="underline">Ver no Mapa</Link>
               </nav>
-              
           </span>
       </div>
   )

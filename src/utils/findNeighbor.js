@@ -12,8 +12,7 @@ export const findNeighbor = (data, id) => {
     }
 
     distances.sort((a,b) => a.distance - b.distance)
-
-
+    
     return distances.slice(1, 3).map(({id2, distance}) => ({
         id2,
         distance

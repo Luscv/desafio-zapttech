@@ -1,8 +1,7 @@
 import PropTypes from "prop-types";
 
 export const StoreMinimized = ({ store }) => {
-    return (
-        
+    return ( 
         <div className="py-4 flex gap-3 border-b border-dark-grey">
             <div className="flex flex-col justify-center">
                 <img src={store.media} alt={store.title} className=" w-20 h-20 object-cover rounded"/>

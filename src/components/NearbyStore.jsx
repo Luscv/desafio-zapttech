@@ -20,6 +20,6 @@ NearbyStore.propTypes = {
       description: PropTypes.string,      
       media: PropTypes.string,            
       id: PropTypes.string.isRequired,
-      distance: PropTypes.number.isRequired,    
+      distance: PropTypes.string.isRequired,    
     }).isRequired,
 };
